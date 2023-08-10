@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppAeromexico</string>
+    <string name="about_programmer">
+        Programador: Erick \n
+        Empresa: Areoméxico \n
+        Ciudad de México 2023 \n
+        Todos los derechos reservados \n
+    </string>
+    <string-array name="opciones_temporada">
+        <item>Febrero-Marzo</item>
+        <item>Mayo-Junio</item>
+        <item>Septiembre-Octubre</item>
+    </string-array>
+
+</resources>

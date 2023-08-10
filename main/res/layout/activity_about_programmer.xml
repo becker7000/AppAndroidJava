@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/about_programmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:lines="5"
+        android:text="@string/about_programmer"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/about_programmer"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/back_arrow" />
+
+</RelativeLayout>
